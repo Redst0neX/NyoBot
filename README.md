@@ -129,4 +129,4 @@ simplified.
 
 ## License
 
-MIT (or add your preferred license here).
+MIT.
