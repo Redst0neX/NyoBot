@@ -1,0 +1,16 @@
+[Unit]
+Description=NyoBot - presence script pour NyoChat.fr
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Adaptez le chemin et l'utilisateur à votre installation
+User=pi
+WorkingDirectory=/home/pi/nyobot
+ExecStart=/usr/bin/python3 /home/pi/nyobot/nyobot.py
+Restart=on-failure
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target
