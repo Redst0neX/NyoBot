@@ -27,7 +27,7 @@ long-running Python process.
 ## Installation
 
 ```bash
-git clone <this-repo-url>
+git clone <https://github.com/Redst0neX/NyoBot/>
 cd nyobot
 
 python3 -m venv venv
